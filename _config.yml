@@ -32,8 +32,5 @@ defaults:
     values:
       layout: "blog-post"
       website:
-      screenshots: 
-        shot:
-        caption:
-      tech: 
-        name:
+      screenshots: ["shot","caption"]
+      tech: []
