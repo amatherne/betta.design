@@ -1,9 +1,10 @@
 ---
+title: San Antonio, Texas
+date: 2014-06-01 03:15:00 Z
 layout: tour-page
-title:  "San Antonio, Texas"
-date:   2014-06-01 03:15:00
 categories: tour
 ---
+
 The time has finally come. I've been waiting almost a decade to experience life on the road again.
 
 We've got our van, our gear, and our bags packed. So, things went awry almost immediately.

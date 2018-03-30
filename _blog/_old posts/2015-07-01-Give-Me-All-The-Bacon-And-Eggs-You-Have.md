@@ -1,12 +1,10 @@
 ---
+title: All The Bacon And Eggs You Have
+date: 2015-07-01 05:13:43 Z
 layout: post
-title:  "All The Bacon And Eggs You Have"
-date:   2015-07-01 05:13:43
 categories: post
-image: /img/blog/random/chesthair.jpg 
-
+image: "/img/blog/random/chesthair.jpg"
 ---
-
 
 ### What I Said...
 

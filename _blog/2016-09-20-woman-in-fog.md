@@ -1,25 +1,20 @@
 ---
+title: The Woman in Fog
+date: 2016-09-20 17:23:43 Z
 layout: blog-post
-
-title: "The Woman in Fog"
-website: 'artwork'
-date:   2016-09-20 17:23:43
-
-image: /img/portfolio/photoshop/alleyway/Alley-final.png 
-
+website: artwork
+image: "/img/portfolio/photoshop/alleyway/Alley-final.png"
 tech:
- - Adobe Photoshop
-
+- Adobe Photoshop
 screenshots:
- - shot: /img/portfolio/photoshop/alleyway/Alley-final.png 
-   caption: Woman in Alleyway at Night
- - shot: /img/portfolio/photoshop/alleyway/alley.jpg 
-   caption: Original Alleyway Source
- - shot: /img/portfolio/photoshop/alleyway/clouds.jpg 
-   caption: Fog Source
- - shot: /img/portfolio/photoshop/alleyway/indian-man-in-woman-dress.jpg 
-   caption: The Woman. Who is actually a beautiful Man in a dress.
-
+- shot: "/img/portfolio/photoshop/alleyway/Alley-final.png"
+  caption: Woman in Alleyway at Night
+- shot: "/img/portfolio/photoshop/alleyway/alley.jpg"
+  caption: Original Alleyway Source
+- shot: "/img/portfolio/photoshop/alleyway/clouds.jpg"
+  caption: Fog Source
+- shot: "/img/portfolio/photoshop/alleyway/indian-man-in-woman-dress.jpg"
+  caption: The Woman. Who is actually a beautiful Man in a dress.
 ---
 
 The Photoshop icon in my dock has been looming at me for months. I'd attempted the tackle the program years ago with little luck. After my recent success with using the iPad as a sketching tool I decided to give it a second try. 

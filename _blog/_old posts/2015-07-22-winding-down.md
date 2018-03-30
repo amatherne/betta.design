@@ -1,12 +1,11 @@
 ---
+title: Winding Down
+date: 2015-07-22 09:11:43 Z
 layout: post
 categories: post
-
-title:  "Winding Down"
-date:   2015-07-22 09:11:43
-
-image: /img/blog/post-heros/default-img-v.2.png 
+image: "/img/blog/post-heros/default-img-v.2.png"
 ---
+
 I stayed up *just about* all of last night. Forced myself to sleep at 7:00am. I've had a shower, breakfast, and i'm now 17 minutes into my second to last design lecture. (I'm killin' it today.) I find that I work myself into a late night groove and it's difficult to pull myself out of it at times. 
 
 It's a routine thing for me really. Even before I began my pedicab life I was pluggin away at the late hours pushing out some sort of creative content. Typically music oriented. My first band (to do something besides only playing locally) wouldnt even begin our practices until 11pm or later. And we were dedicated. 5-6 nights a week with school (for two of them) and jobs (for the other 3 of us). It somehow worked well, and now I'm somewhat set in my ways.

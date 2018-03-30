@@ -1,8 +1,8 @@
 ---
+title: Oklahoma City, Oklahoma
+date: 2014-06-05 09:48:43 Z
 layout: tour-page
-title:  "Oklahoma City, Oklahoma"
-date:   2014-06-05 09:48:43
-categories: tour 
+categories: tour
 ---
 
 What a day.

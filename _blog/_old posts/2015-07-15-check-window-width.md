@@ -1,10 +1,11 @@
 ---
+title: Checking Your Screen Width Live
+date: 2015-07-15 11:25:00 Z
 layout: post
-title:  "Checking Your Screen Width Live"
-date:   2015-07-15 11:25:00
 categories: post
-image: /img/blog/post-heros/default-img-v.1.png
+image: "/img/blog/post-heros/default-img-v.1.png"
 ---
+
 This is a game changer for me. I can use this while checking media queries. I love jQuery. 
 
 (Or see next post for how much this view has changed...)

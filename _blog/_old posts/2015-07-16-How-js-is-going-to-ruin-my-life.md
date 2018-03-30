@@ -1,11 +1,9 @@
 ---
+title: Why javascript is ruining me.
+date: 2015-07-16 14:28:43 Z
 layout: post
 categories: post
-
-title:  "Why javascript is ruining me."
-date:   2015-07-16 14:28:43
-
-image: /img/blog/post-heros/default-img-v.2.png 
+image: "/img/blog/post-heros/default-img-v.2.png"
 ---
 
 I have a problem. It's permiated my life for a while now. I've learned over the years to keep it under some control. But i always go overboard at first. I can admit this:

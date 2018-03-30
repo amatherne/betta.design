@@ -1,41 +1,33 @@
 ---
+title: Goodreads Mobile Redesign
+date: 2015-08-10 09:33:43 Z
+categories:
+- portfolio
 layout: port-post
-categories: portfolio
-
 order: 3
-
-title: "Goodreads Mobile Redesign"
-date: 2015-08-10 09:33:43
-
-image: /img/portfolio/goodreads/Icon.png
-website: 'goodreads.com'
-
+image: "/img/portfolio/goodreads/Icon.png"
+website: goodreads.com
 tech:
-  - Illustrator /
-  - Photoshop /
-  - Responsive Design
-
-screenshots: 
- - shot: /img/portfolio/goodreads/Icon.png
-   caption: Basic Icon for Menus
- - shot: /img/portfolio/goodreads/GoodReads-Main.png
-   caption: Mobile Home
- - shot: /img/portfolio/goodreads/GoodReads-Friends.png
-   caption: Mobile Friends View
- - shot: /img/portfolio/goodreads/GoodReads-Bookshelves.png
-   caption: Mobile Bookshelves View
- - shot: /img/portfolio/goodreads/GoodReads-myBooks.png
-   caption: Mobile My Books View
- - shot: /img/portfolio/goodreads/GoodReads-Recent.png
-   caption: Mobile Recent View
- - shot: /img/portfolio/goodreads/GoodReads-Recommendations.png
-   caption: Mobile Recommendations View
- - shot: /img/portfolio/goodreads/GoodReads-Updates.png
-   caption: Mobile Updates View
-
-
-
-
+- Illustrator /
+- Photoshop /
+- Responsive Design
+screenshots:
+- shot: "/img/portfolio/goodreads/Icon.png"
+  caption: Basic Icon for Menus
+- shot: "/img/portfolio/goodreads/GoodReads-Main.png"
+  caption: Mobile Home
+- shot: "/img/portfolio/goodreads/GoodReads-Friends.png"
+  caption: Mobile Friends View
+- shot: "/img/portfolio/goodreads/GoodReads-Bookshelves.png"
+  caption: Mobile Bookshelves View
+- shot: "/img/portfolio/goodreads/GoodReads-myBooks.png"
+  caption: Mobile My Books View
+- shot: "/img/portfolio/goodreads/GoodReads-Recent.png"
+  caption: Mobile Recent View
+- shot: "/img/portfolio/goodreads/GoodReads-Recommendations.png"
+  caption: Mobile Recommendations View
+- shot: "/img/portfolio/goodreads/GoodReads-Updates.png"
+  caption: Mobile Updates View
 ---
 
 ### Customer Bio
