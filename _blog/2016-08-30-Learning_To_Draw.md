@@ -1,6 +1,7 @@
 ---
 title: Learning To Draw
 date: 2016-08-30 07:53:00 Z
+position: 6
 layout: blog-post
 website: artwork
 image: "/img/art/Woman-v.7-final.png"
