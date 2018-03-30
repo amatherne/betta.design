@@ -1,0 +1,61 @@
+---
+title: Blog
+permalink: "/blog/"
+layout: default
+---
+
+<div class="portfolios">
+  
+  <h2 class="page-type">BLOG</h2>
+  
+  <ul class="post-list">
+    
+    <!-- {% assign portfolios = site.portfolio  %} -->
+    {% assign sorted = (site.blog | sort: 'date') | reverse %}
+    {% for blog in sorted limit:2 %}
+
+        <li class="post-box">
+
+          <a href="{{ blog.url | prepend: site.baseurl }}" class="img-overlay">
+            <img class="post-image" src="{{ blog.image }}" />
+          </a>
+          <div class="post-info">
+
+            <h2>{{ blog.title }}</h2>
+
+            <span class="date">{{ blog.date | date: "%B %d, %Y" }}</span>
+
+          </div>
+          
+
+        </li>
+
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  <h3>more recent entries</h3>
+
+  <ul class="recent-list">
+    {% assign sorted = (site.blog | sort: 'date') | reverse %}
+    {% for blog in sorted limit:8 offset:2 %}
+    <li class="post-box">
+
+      <a href="{{ blog.url | prepend: site.baseurl }}" class="img-overlay">
+
+        <img class="post-image" src="{{ blog.image }}" />
+
+      </a>
+
+      <a href="{{ blog.url | prepend: site.baseurl }}" class="post-info">
+
+        <h2>{{ blog.title }}</h2>
+
+        <span class="date">{{ blog.date | date: "%B %d, %Y" }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div>

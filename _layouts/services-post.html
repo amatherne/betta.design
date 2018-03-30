@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<div class="portfolio">
+  
+  	<h2 class="page-type">Services</h2>
+
+	<div class="content-wrap">
+<!-- 	  	<div id="post-nav" class="post-nav">
+
+		    {% if page.previous.url %}
+
+		      	<a class="prev" href="{{page.previous.url}}"><span class="arrow">&laquo;</span> <span>{{page.previous.title}}</span></a> 
+
+		    {% endif %} 
+
+		    {% if page.next.url %} 
+
+		      	<a class="next" href="{{page.next.url}}"><span>{{page.next.title}}</span> <span class="arrow">&raquo;</span></a> 
+
+		    {% endif %} 
+
+	  	</div> -->
+
+	    <div class="post-img">            
+
+	        <figure class="image-tint">
+	          	<img class="image" src="{{ page.image | prepend: site.url }}" />
+	        </figure>
+	        
+	        <span href="http://{{ page.website }}" class="post-meta">
+	          <h2 class="post-title">{{ page.title }}</h2>
+	          <!-- <span class="website">{{ page.website }}</span> -->
+	        </span>
+
+	    </div>
+
+<!-- 	    <ul class="tech">
+	      <li class="sub-header">Tech Used</li>
+	      {% for tech in page.tech %}
+	        <li class="items">{{ tech }}</li>
+	      {% endfor %}
+	    </ul> -->
+<!-- 	    <ul class="screenshots">
+        	<li class="sub-header">Screenshots</li>
+          {% for screenshot in page.screenshots %}
+            <li class="shot">
+            	<div class="img-bound">
+	            	<img src="{{ screenshot.shot  }}" />
+	            </div>
+            	<span class="caption">{{ screenshot.caption }}</span>
+            </li>
+            
+          {% endfor %}
+        </ul> -->
+
+	    <article class="post-content">
+
+	      {{ content }}
+
+	    </article>
+	</div>
+
+</div>

@@ -1,0 +1,26 @@
+---
+title: Betta Web Design
+timezone: UTC
+collections:
+  blog:
+    title: Blog
+    output: true
+  portfolio:
+    title: Portfolio
+    output: true
+  posts:
+    title: Posts
+    output: true
+  services:
+    title: Services
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: Matherne.Projects@gmail.com
+description: Web Design and Support based in Austin Texas.
+url: http://betta.design
+twitter_username: matherne_austin
+github_username: amatherne
+excerpt_separator: "<!--break-->"
+markdown: kramdown
