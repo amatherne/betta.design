@@ -1,22 +1,17 @@
 ---
+title: Working with Google Sheets
+date: 2016-10-30 22:25:43 Z
 layout: blog-post
-
-title: "Working with Google Sheets"
-website: 'codepen'
-date:   2016-10-30 22:25:43
-
-image: /img/portfolio/mech-form/work-order-screenshot.png 
-
+website: codepen
+image: "/img/portfolio/mech-form/work-order-screenshot.png"
 tech:
- - HTML /
- - Sass /
- - JQuery /
- - Google Sheets / 
- - Ajax POST / 
- - Codepen.io
-
-screenshots:
-
+- HTML /
+- Sass /
+- JQuery /
+- Google Sheets /
+- Ajax POST /
+- Codepen.io
+screenshots: 
 ---
 
 <style type="text/css">

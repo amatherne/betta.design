@@ -1,41 +1,34 @@
 ---
+title: Vetter Kids
+date: 2016-07-10 09:33:43 Z
+categories:
+- portfolio
 layout: port-post
-categories: portfolio
-
 order: 1
-
-title: "Vetter Kids"
-website: 'vetterkids.com'
-date: 2016-07-10 09:33:43
-
-image: /img/portfolio/kid-vital/lowshot-1.jpg
-
+website: vetterkids.com
+image: "/img/portfolio/kid-vital/lowshot-1.jpg"
 tech:
-  - Illustrator /
-  - Adobe Comp (iphone) /
-  - Responsive /
-  - HTML /
-  - CSS/Sass /
-  - Bourbon /
-  - Jekyll /
-  - Jquery
-
-screenshots: 
- - shot: /img/portfolio/kid-vital/vk-home-mobile.png
-   caption: Mobile Home
- - shot: /img/portfolio/kid-vital/vk-home-desktop.png
-   caption: Desktop Home
- - shot: /img/portfolio/kid-vital/vk-shows-mobile.png
-   caption: Mobile Shows
- - shot: /img/portfolio/kid-vital/vk-shows-desktop.png
-   caption: Desktop Shows
- - shot: /img/portfolio/kid-vital/vk-diaries-mobile.png
-   caption: Mobile Diairies
- - shot: /img/portfolio/kid-vital/vk-diaries-desktop.png
-   caption: Desktop Diairies
-
-
-
+- Illustrator /
+- Adobe Comp (iphone) /
+- Responsive /
+- HTML /
+- CSS/Sass /
+- Bourbon /
+- Jekyll /
+- Jquery
+screenshots:
+- shot: "/img/portfolio/kid-vital/vk-home-mobile.png"
+  caption: Mobile Home
+- shot: "/img/portfolio/kid-vital/vk-home-desktop.png"
+  caption: Desktop Home
+- shot: "/img/portfolio/kid-vital/vk-shows-mobile.png"
+  caption: Mobile Shows
+- shot: "/img/portfolio/kid-vital/vk-shows-desktop.png"
+  caption: Desktop Shows
+- shot: "/img/portfolio/kid-vital/vk-diaries-mobile.png"
+  caption: Mobile Diairies
+- shot: "/img/portfolio/kid-vital/vk-diaries-desktop.png"
+  caption: Desktop Diairies
 ---
 
 ### Customer Bio

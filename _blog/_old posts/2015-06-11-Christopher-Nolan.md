@@ -1,8 +1,8 @@
 ---
+title: Christopher Nolan
+date: 2015-06-11 09:48:43 Z
 layout: post
-title:  "Christopher Nolan"
-date:   2015-06-11 09:48:43
-img: /img/blog/beachpatrol.png
+img: "/img/blog/beachpatrol.png"
 categories: post
 ---
 

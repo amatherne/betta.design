@@ -1,10 +1,9 @@
 ---
+title: Blank
+date: 2015-06-25 09:48:43 Z
 layout: post
-title:  "Blank"
-date:   2015-06-25 09:48:43
 categories: post
-image: /img/blog/random/drumset2.jpg 
-
+image: "/img/blog/random/drumset2.jpg"
 ---
 
 1. [Second Favorite](https://typecast.com/t4PZVTP6HW/fonts1)

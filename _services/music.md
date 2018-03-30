@@ -1,10 +1,9 @@
 ---
+title: Musician
+categories:
+- services
 layout: services-post
-category: services
-
-title: "Musician"
-image: /img/portfolio/kid-vital/austin-2.jpg
-
+image: "/img/portfolio/kid-vital/austin-2.jpg"
 ---
 
 - Song Writing 

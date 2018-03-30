@@ -1,24 +1,17 @@
 ---
+title: Geo Mountain
+date: 2016-10-12 22:25:43 Z
 layout: blog-post
-
-title: "Geo Mountain"
-website: 'artwork'
-date:   2016-10-12 22:25:43
-
-image: /img/portfolio/photoshop/geo-mountain/geo-mountain.jpg 
-
+website: artwork
+image: "/img/portfolio/photoshop/geo-mountain/geo-mountain.jpg"
 tech:
- - Adobe Photoshop /
- - Adobe Stock
-
+- Adobe Photoshop /
+- Adobe Stock
 screenshots:
- - shot: /img/portfolio/photoshop/geo-mountain/geo-mountain.jpg
-   caption: My Geometric Mountains
- - shot: /img/portfolio/photoshop/geo-mountain/AdobeStock_117082323.jpeg
-   caption: Raw Image from Adobe Stock.
-
-
-
+- shot: "/img/portfolio/photoshop/geo-mountain/geo-mountain.jpg"
+  caption: My Geometric Mountains
+- shot: "/img/portfolio/photoshop/geo-mountain/AdobeStock_117082323.jpeg"
+  caption: Raw Image from Adobe Stock.
 ---
 
 <style type="text/css">

@@ -1,10 +1,9 @@
 ---
+title: Web Design
+categories:
+- services
 layout: services-post
-category: services
-
-title: "Web Design"
-image: /img/portfolio/apc/desktop-home-page.png
-
+image: "/img/portfolio/apc/desktop-home-page.png"
 ---
 
 - Updating existing websites

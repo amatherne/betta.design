@@ -1,11 +1,9 @@
 ---
+title: My Design Process
+date: 2015-07-23 11:07:43 Z
 layout: post
 categories: post
-
-title:  "My Design Process"
-date:   2015-07-23 11:07:43
-
-image: /img/blog/post-heros/mountain.jpg 
+image: "/img/blog/post-heros/mountain.jpg"
 ---
 
 Our class was tasked with making a table of contents of what our Style Guides will look like. This is the one i came up with. Seeing this in front of me actually helps me grasp what i need in my design process. Thanks, Rubber Ducky.

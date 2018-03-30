@@ -1,19 +1,15 @@
 ---
+title: Tool Finder
+date: 2016-11-01 09:33:43 Z
 layout: blog-post
-
-title: "Tool Finder"
-date:   2016-11-01 09:33:43
-website: 'codepen'
-
-image: /img/blog/tool-finder/tool-finder.png 
-
+website: codepen
+image: "/img/blog/tool-finder/tool-finder.png"
 tech:
- - HTML /
- - Sass /
- - JQuery /
- - Codepen.io
-
-screenshots:
+- HTML /
+- Sass /
+- JQuery /
+- Codepen.io
+screenshots: 
 ---
 
 <style type="text/css">

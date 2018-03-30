@@ -1,18 +1,14 @@
 ---
+title: Loading Icon
+date: 2016-11-13 09:33:43 Z
 layout: blog-post
-
-title: "Loading Icon"
-date:   2016-11-13 09:33:43
-website: 'codepen'
-
-image: /img/blog/svg/svg.png 
-
+website: codepen
+image: "/img/blog/svg/svg.png"
 tech:
- - HTML /
- - Sass /
- - SVG 
-
-screenshots:
+- HTML /
+- Sass /
+- SVG
+screenshots: 
 ---
 
 <style type="text/css">
