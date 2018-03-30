@@ -5,6 +5,11 @@ collections:
   blog:
     title: Blog
     output: true
+    Screenshots:
+    - Shot
+    - Caption
+    Tech:
+    - Name
   portfolio:
     title: Portfolio
     output: true
