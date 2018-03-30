@@ -1,6 +1,7 @@
 ---
 title: Loading Icon
 date: 2016-11-13 09:33:43 Z
+position: 5
 layout: blog-post
 website: codepen
 image: "/img/blog/svg/svg.png"
