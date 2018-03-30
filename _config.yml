@@ -46,6 +46,18 @@ defaults:
       map:
         latitude: 
         longitude: 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: "blog-post"
+      website:
+      screenshots: 
+        shot:
+          caption:
+      tech: []
 email: Matherne.Projects@gmail.com
 description: Web Design and Support based in Austin Texas.
 url: http://amatherne.github.io/
