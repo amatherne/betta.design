@@ -26,14 +26,14 @@ excerpt_separator: "<!--break-->"
 markdown: kramdown
 
 defaults: 
-  -
-    scope:
-      path: ""
-      type: "blog"
-    values:
-      website:
-      screenshots: 
-        shot:
-        caption:
-      tech: 
-        name:
+    -
+      scope:
+        path: ""
+        type: "blog"
+      values:
+        website:
+        screenshots: 
+          shot:
+          caption:
+        tech: 
+          name:
