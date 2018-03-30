@@ -1,6 +1,7 @@
 ---
 title: Geo Mountain
 date: 2016-10-12 22:25:43 Z
+position: 11
 layout: blog-post
 website: artwork
 image: "/img/portfolio/photoshop/geo-mountain/geo-mountain.jpg"

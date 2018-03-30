@@ -1,6 +1,7 @@
 ---
 title: Balancing Explosions
 date: 2016-09-26 17:23:43 Z
+position: 9
 layout: blog-post
 website: artwork
 image: "/img/portfolio/photoshop/balance/Sm_Explosions.jpg"
