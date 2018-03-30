@@ -21,12 +21,31 @@ defaults:
   -
     scope:
       path: ""
-      type: "blog"
+      type: "posts"
     values:
-      layout: "blog-post"
-      website:
-      screenshots: ["shot","caption"]
-      tech: []
+      layout: "default"
+      author: "Ethan"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "projects"
+      type: "pages"
+    values:
+      colors: ["red", "green", "blue"]
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "locations"
+    values:
+      map:
+        latitude: 
+        longitude: 
 email: Matherne.Projects@gmail.com
 description: Web Design and Support based in Austin Texas.
 url: http://amatherne.github.io/
