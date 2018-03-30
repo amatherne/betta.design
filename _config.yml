@@ -29,7 +29,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "blog-post"
+      type: "blog"
     values:
       website:
       screenshots: 
