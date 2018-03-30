@@ -28,8 +28,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "blogs"
+      type: "blog"
     values:
+      layout: "blog-post"
       website:
       screenshots: 
         shot:
