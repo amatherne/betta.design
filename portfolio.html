@@ -1,0 +1,61 @@
+---
+layout: default
+title: Portfolio
+permalink: /portfolio/
+---
+
+<div class="portfolios">
+  
+  <h2 class="page-type">PORTFOLIO</h2>
+  
+  <ul class="post-list">
+    
+    <!-- {% assign portfolios = site.portfolio  %} -->
+    {% assign sorted = (site.portfolio | sort: 'order')  %}
+    {% for portfolio in sorted limit:2 %}
+
+        <li class="post-box">
+
+          <a href="{{ portfolio.url | prepend: site.baseurl }}" class="img-overlay">
+            <img class="post-image" src="{{ portfolio.image }}" />
+          </a>
+          <div class="post-info">
+
+            <h2>{{ portfolio.title }}</h2>
+
+            <span class="date">{{ portfolio.date | date: "%B %d, %Y" }}</span>
+
+          </div>
+          
+
+        </li>
+
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  <h3>more recent entries</h3>
+
+  <ul class="recent-list">
+    {% assign sorted = (site.portfolio | sort: 'order') %}
+    {% for portfolio in sorted limit:8 offset:2 %}
+    <li class="post-box">
+
+      <a href="{{ portfolio.url | prepend: site.baseurl }}" class="img-overlay">
+
+        <img class="post-image" src="{{ portfolio.image }}" />
+
+      </a>
+
+      <a href="{{ portfolio.url | prepend: site.baseurl }}" class="post-info">
+
+        <h2>{{ portfolio.title }}</h2>
+
+        <span class="date">{{ portfolio.date | date: "%B %d, %Y" }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div>

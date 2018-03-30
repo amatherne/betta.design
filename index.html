@@ -1,0 +1,138 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  <div class="hero">
+    <div class="hero-wrap">
+      <div class="mini-about">
+
+        <h2>
+          My name is Austin.
+        </h2>
+
+        <p>
+          I love weird art, loud music, wearing socks with sandals, and helping you create your perfect website.
+        </p>
+
+        <a href="{{ site.baseurl }}/about" class="button hero-1">
+          <span>ABOUT<BR>AUSTIN</span>
+        </a>
+      </div>
+
+      <div class="center-img">
+        <div class="circle-img"></div>
+      </div>
+      
+      <div class="hero-contact">
+        <h2>
+          LET'S GET TO WORK!
+        </h2>
+
+        <a href="{{ site.baseurl }}/contact" class="about-button"><span>Contact<BR>Me</span></a>
+        
+        <!-- <input class="email-input" type="text" name="email" for="" placeholder="Your email here...">
+        <button>Yo.</button> -->
+      </div>
+
+      <a href="{{ site.baseurl }}/about" class="button hero-2">
+        <span>ABOUT<BR>AUSTIN</span>
+      </a>
+    </div>
+  </div>
+
+
+    <h3>bloggin'</h3>
+  <ul class="post-list">
+    
+    {% assign sorted = (site.blog | sort: 'date') | reverse %}
+    {% for blog in sorted limit:2 %}
+
+        <li class="post-box ">
+
+          <a href="{{ blog.url | prepend: site.baseurl }}" class="img-overlay first-post">
+            <img class="post-image" src="{{ blog.image }}" />
+          </a>
+          <div class="post-info ">
+
+            <h2>{{ blog.title }}</h2>
+
+            <span class="date">{{ blog.date | date: "%B %d, %Y" }}</span>
+            
+          </div>
+          
+          <div class="excerpt">
+            <p> {{ blog.excerpt | split:'<!--break-->' }} </p>
+            <a href="{{ blog.url | prepend: site.baseurl }}" class="button">
+              <span>
+                read<BR>more
+              </span>
+            </a>
+          </div>
+
+        </li>
+
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  <h3>portfolio</h3>
+  
+  <ul class="post-list port-feed">
+    
+    {% assign sorted = (site.portfolio | sort: 'order') %}
+    {% for portfolio in sorted limit:2  %}
+
+        <li class="post-box">
+
+          <a href="{{ portfolio.url | prepend: site.baseurl }}" class="img-overlay">
+            <img class="post-image" src="{{ portfolio.image }}" />
+          </a>
+          <div class="post-info">
+
+            <h2>{{ portfolio.title }}</h2>
+
+            <span class="date">{{ portfolio.date | date: "%B %d, %Y" }}</span>
+
+          </div>
+          
+
+        </li>
+
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  
+
+  <h3>older posts</h3>
+
+  <ul class="recent-list">
+
+    {% assign sorted = (site.blog | sort: 'date') | reverse %}
+    {% for blog in sorted limit:8 offset:2 %}
+    <li class="post-box">
+
+      <a href="{{ blog.url | prepend: site.baseurl }}" class="img-overlay">
+
+        <img class="post-image" src="{{ blog.image }}" />
+
+      </a>
+
+      <a href="{{ blog.url | prepend: site.baseurl }}" class="post-info">
+
+        <h2>{{ blog.title }}</h2>
+
+        <span class="date">{{ blog.date | date: "%B %d, %Y" }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  
+
+
+</div>

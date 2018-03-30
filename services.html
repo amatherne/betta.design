@@ -1,0 +1,36 @@
+---
+layout: default
+title: Services
+permalink: /services/
+---
+
+<div class="portfolios">
+  
+  <h2 class="page-type">Services</h2>
+  
+  <ul class="post-list">
+
+    {% for service in site.services limit:4 %}
+
+        <li class="post-box">
+
+          <a href="{{ service.url | prepend: site.baseurl }}" class="img-overlay">
+            <img class="post-image" src="{{ service.image }}" />
+          </a>
+          <div class="post-info">
+
+            <h2>{{ service.title }}</h2>
+
+            <span class="date">{{ service.date | date: "%B %d, %Y" }}</span>
+
+          </div>
+          
+
+        </li>
+
+    {% endfor %}
+  </ul>
+
+
+
+</div>

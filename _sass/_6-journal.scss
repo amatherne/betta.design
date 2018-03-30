@@ -1,0 +1,331 @@
+.post {
+	width:100%;
+	overflow:hidden;
+	position: relative;
+	background:transparent;
+	@media screen and (min-width:600px) {
+		width: 90%;
+		max-width:$fullwidth;
+		@include margin(0 auto);	
+	}
+
+	.page-type {
+		position:relative;
+		@include font(3);
+		opacity:0.5;
+		font-family:$neu;
+		font-weight:700;
+		color: $secondcolor;
+		@include margin(0.5em auto);
+		text-align:center;
+		@media screen and (min-width:850px) {
+			@include font(4);
+			@include margin(1em 0);
+		}
+
+	}
+
+	h3 {
+		position:relative;
+		@include font(2);
+		opacity:0.7;
+		font-family:$neu;
+		font-weight:700;
+		color: $secondcolor;
+		@include margin(1.5em auto 0.5em);
+		// text-align:center;
+		width:100%;
+
+	}
+	.divider {
+		border: 0;
+	    height: 2px;
+	    width: 100%;
+	    opacity: 0.2;
+	    // background-image: linear-gradient(to right, $maincolor, $fifthcolor, $maincolor);
+	    background:$maincolor;
+	}
+
+	.post-content {
+		width:90%;
+		@include margin(2em auto);
+		position: relative;
+		overflow:hidden;
+		max-width:550px;
+
+		p {
+			font-family: $neu;
+			font-weight: 400;
+			@include font(1.1);
+			line-height: 1.6em;
+			display: block;
+			@include margin(1em auto);
+			color:$fourthcolor;
+
+		}
+
+		ul {
+			position: relative;
+			color:$fourthcolor;
+			display: block;
+			@include margin(0.3em 2%);
+			// max-width:250px;
+			list-style: circle;
+
+
+		}
+		ul > li > ul {
+			@include margin(0.3em 0);
+			// list-style: circle;
+
+		}
+		li {
+			color:$fourthcolor;
+			position: relative;
+			// max-width: 210px;
+			font-family:$neu;
+			font-weight: 500;
+			@include font(1.1);
+			line-height: 1em;
+			@include margin(0.3em 2%);
+			display: block;
+			// list-style: circle;
+			vertical-align: top;
+
+		}
+
+		li > ul > li {
+
+				color:$fourthcolor;
+				min-width: 150px;
+				font-family:$neu;
+				// font-weight: 300;
+				@include font(0.8);
+				line-height: 1.2em;
+				@include margin(0.2em 5%);
+
+		
+		}
+		
+		// li > ul > li {
+		// 	color:$fourthcolor;
+			
+		// 	max-width: 250px;
+		// 	font-family:$neu;
+		// 	font-weight: 300;
+		// 	@include font(0.8);
+		// 	line-height: 1em;
+		// 	@include margin(0.5em 5%);
+		// }
+		// li > ul > li > ul > li {
+		// 	color:$fourthcolor;
+		// 	width: 95%;
+		// 	font-family:$neu;
+		// 	font-weight: 300;
+		// 	@include font(0.9);
+		// 	line-height: 1em;
+		// 	@include margin(0.5em 0 0.5em 5%);
+		// }
+	}
+
+	@media screen and (min-width:850px) {
+		.content-wrap {
+			width: 68%;
+			float:right;
+			@include margin(0 0 0 2%);
+			position: relative;
+			vertical-align: bottom;
+
+		}
+		clear:both;
+	}
+	
+	.archive {
+		@include padding(0.8em 2em 1.6em);
+		clear:both;
+		position: relative;
+		width:80%;
+		max-width:400px;
+		@include margin(1em auto);
+		background:$secondcolor;
+		color:$maincolor;
+		opacity: 0.8;
+		&:hover {
+			opacity: 1;
+		}
+
+		@media screen and (min-width:850px) {
+			width: 30%;
+			float: left;
+			clear:left;
+			// vertical-align: top;
+			@include margin(2.28em 0);
+
+		}
+		a {
+			color:$maincolor;
+			font-family: $neu;
+			// @include font(0.8);
+			background-color:transparent;
+			transition: background-color 0.3s ease;
+
+			&:hover {
+				background-color:$thirdcolor;
+				transition: background-color 0.3s ease;
+			}
+		}
+		.archive-title {
+			font-weight: 700;
+			@include font(1.2);
+			width: 80%;
+			@include margin(1em 0 0.4em);
+			display: block;
+			font-weight: 400;
+			opacity: 0.8;
+
+		}
+		.archive-date {
+			font-weight: 700;
+			@include font(0.8);
+			width: 80%;
+			@include margin(0 0 2em);
+			display: block;
+			font-weight: 300;
+			opacity: 0.8;
+
+		}
+		.recent {
+			// text-align:center;
+			color:$maincolor;
+			clear:both;
+			font-family: $neu;
+			font-weight: 300;
+			@include font(2.2);
+			line-height: 1.1em;
+			display: block;
+			@include margin(0 auto 0.5em);
+			letter-spacing: 1px;
+			opacity: 0.90;
+			// text-transform: uppercase;
+		}
+	}
+	.post-header {
+		width:100%;
+		position: relative;
+		overflow: hidden;
+
+	}
+	.post-img {
+		clear:both;
+		position: relative;
+		overflow:hidden;
+		width:100%;
+		max-width:40em;
+		// max-height:25em;
+		@include margin(0 auto);
+	}
+	.image-tint {
+		max-height:18em;
+		display: block;
+		position:relative;
+		@include margin(0 auto);
+	    overflow: hidden;
+		opacity: 1;
+		width:100%;
+	    // height:auto;
+	    background: $fourthcolor;
+	    @media screen and (min-width:600px) {
+	    	max-height: 23em;
+	    }
+	}
+	.image {
+		width:110%;
+		position: relative;
+		@include margin(0 auto);
+		opacity: 0.6;
+		overflow:hidden;
+	}
+	.post-meta {
+		position: absolute;
+		bottom:2em;
+		left:5%;
+		width:80%;
+		@include margin(0 auto);
+		.post-title {
+			color:$thirdcolor;
+			clear:both;
+			font-family: $neu;
+			font-weight: 700;
+			@include font(2.9);
+			line-height: 1em;
+			display: block;
+			@include margin(0 auto 0.5em);
+			letter-spacing: 1px;
+			opacity: 0.9;
+			// text-transform: uppercase;
+			@media screen and (min-width:600px) {
+				@include font(2.7);
+			}
+			@media screen and (min-width:850px) {
+				@include font(2.6);
+			}
+		}
+		.post-date {
+			opacity: 0.85;
+		    border-top: 2px solid $thirdcolor;
+		    border-bottom: 2px solid $thirdcolor;
+		    @include padding(0.3em);
+		    @include margin(1em 0);
+		   	clear:both;
+			font-family: $neu;
+			font-weight: 500;
+			@include font(1.05);
+			line-height: 1.1em;
+			// display: block;
+			// @include margin(0 auto);
+			letter-spacing: 2px;
+			// width: 40%;
+			color:$thirdcolor;
+
+
+		}
+	}
+
+	.prev,
+	.next {
+	    position: relative;
+	    font-family: $neu;
+	    color: $secondcolor;
+	    @include font(1.1);
+	    display: block;
+	    width: 40%;
+	    @include margin(0 1em 1em);
+	    span {
+	    	display: inline-block;
+	    	width: 70%;
+	    		vertical-align: middle;
+
+	    	&.arrow {
+	    		width: 5%;
+	    	}
+	    }
+	}
+
+	.prev {
+		float:left;
+	}
+	.next {
+		float:right;
+		text-align:right;
+	}
+
+	.post-nav {
+		width:100%;
+		clear:right;
+		// @include padding(2em 0);
+		// @include margin(2em 0);
+	}
+
+
+}
+

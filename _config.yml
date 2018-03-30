@@ -1,0 +1,22 @@
+# Site settings
+title: Betta Web Design
+email: Matherne.Projects@gmail.com
+description: Web Design and Support based in Austin Texas.
+# baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://betta.design" # the base hostname & protocol for your site
+twitter_username: matherne_austin
+github_username:  amatherne
+# permalink: /:categories/:title
+excerpt_separator: <!--break-->
+
+collections:
+  portfolio:
+    output: true
+  blog:
+    output: true  
+  services:
+    output: true
+
+
+# Build settings
+markdown: kramdown
