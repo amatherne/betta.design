@@ -12,18 +12,19 @@ fields:
   label: Website
   type: text
   hidden: false
-  default: ''
+  default: Blahbity Blah
 - name: screenshots
   label: Screenshots
   type: field_group
   fields:
-  - name: shot
-    label: Shot
+  - type: file
+  - name: caption
+    label: Caption
     type: text
     hidden: false
     default: ''
-  - name: caption
-    label: Caption
+  - name: shot
+    label: Shot
     type: text
     hidden: false
     default: ''
@@ -33,4 +34,6 @@ fields:
   label: Tech
   type: list
   hidden: false
-  default: []
+  default:
+  - boom
+  - And another
