@@ -11,7 +11,7 @@ layout: default
   <ul class="post-list">
     
     <!-- {% assign portfolios = site.portfolio  %} -->
-    {% assign sorted = (site.blog | sort: 'date') | reverse %}
+    {% assign sorted = site.blog | sort: 'date' | reverse %}
     {% for blog in sorted limit:2 %}
 
         <li class="post-box">
@@ -38,7 +38,7 @@ layout: default
   <h3>more recent entries</h3>
 
   <ul class="recent-list">
-    {% assign sorted = (site.blog | sort: 'date') | reverse %}
+    {% assign sorted = site.blog | sort: 'date' | reverse %}
     {% for blog in sorted limit:8 offset:2 %}
     <li class="post-box">
 

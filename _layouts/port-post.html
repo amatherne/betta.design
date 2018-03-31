@@ -96,7 +96,7 @@ layout: default
 
       <ul class="week-archive">
 			
-    		{% assign sorted = (site.portfolio | sort: 'date') | reverse %}
+    		{% assign sorted = site.portfolio | sort: 'date' | reverse %}
             {% for portfolio in sorted limit:10 %}
 
                 <li class="archive-box">
