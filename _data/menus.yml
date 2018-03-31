@@ -2,5 +2,5 @@
 header:
 - identifier: api
   url: "/api"
-  weight: -1
+  weight: 1
   title: API Documentation
