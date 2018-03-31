@@ -7,8 +7,9 @@
     <div class="nav">
         <div class="menu-btn hamburger" id="menu-btn">nav</div>
         <div class="responsive-menu">
-            {% assign menu = site.menus.header %}
-            <h4>Menu Size: {{ menu.size }}</h4>
+            {% assign menu = site.menus['header'] %}
+            <h4>Menu Size: {{ menu }}</h4>
+            <h4>Menu ID: {{ menu.identifier }}</h4>
             <h4>Menu Name: {{ menu.menu }}</h4>
             {% if menu != '' %}
                 <ul>
