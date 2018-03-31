@@ -1,9 +1,7 @@
 ---
 header:
-- url: "/"
-  weight: 1
-  title: Level 1
-- url: "/"
+- identifier: 
+  url: "/"
   weight: 1
   parent: 
   title: Level 2
