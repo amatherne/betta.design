@@ -17,47 +17,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
-      author: "Ethan"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: "projects"
-      type: "pages"
-    values:
-      colors: ["red", "green", "blue"]
-      layout: "project"
-  -
-    scope:
-      path: ""
-      type: "locations"
-    values:
-      map:
-        latitude: 
-        longitude: 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "blog"
-    values:
-      layout: "blog-post"
-      website:
-      screenshots: 
-        shot:
-          caption:
-      tech: []
 email: Matherne.Projects@gmail.com
 description: Web Design and Support based in Austin Texas.
 url: http://amatherne.github.io/
