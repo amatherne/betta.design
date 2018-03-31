@@ -1,7 +1,7 @@
 ---
 footer:
 - url: "/"
-  weight: 1
+  weight: 2
   title: test
 - identifier: home
   url: "/"
@@ -9,5 +9,5 @@ footer:
   title: home
 header:
 - url: "/"
-  weight: 2
+  weight: 3
   title: test
