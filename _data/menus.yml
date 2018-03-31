@@ -1,13 +1,1 @@
----
-footer:
-- url: "/"
-  weight: 3
-  title: test
-- identifier: home
-  url: "/"
-  weight: 2
-  title: home
-header:
-- url: "/"
-  weight: 4
-  title: test
+--- {}
