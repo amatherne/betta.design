@@ -17,6 +17,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+  locations:
+    title: locations
+    output: true
+  projects:
+    title: projects
+    output: true
 email: Matherne.Projects@gmail.com
 description: Web Design and Support based in Austin Texas.
 url: http://amatherne.github.io/bettadesign
