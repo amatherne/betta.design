@@ -1,0 +1,59 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: website
+  label: Website
+  type: text
+  hidden: false
+  default: ''
+- name: image
+  label: Image
+  type: file
+  hidden: false
+  default: ''
+- name: tech
+  label: Tech
+  type: list
+  hidden: false
+  default: ''
+- name: screenshots
+  label: Screenshots
+  type: field_group_list
+  fields:
+  - name: shot
+    label: Shot
+    type: file
+    hidden: false
+    default: ''
+  - name: caption
+    label: Caption
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- name: order
+  label: Order
+  type: text
+  hidden: false
+  default: ''
