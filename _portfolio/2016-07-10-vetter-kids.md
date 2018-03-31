@@ -1,6 +1,6 @@
 ---
 title: Vetter Kids
-date: 2016-07-10 09:33:43 Z
+date: 2016-07-10 09:33:43 +0000
 categories:
 - portfolio
 layout: port-post

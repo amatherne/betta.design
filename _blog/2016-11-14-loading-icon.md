@@ -1,6 +1,6 @@
 ---
 title: Loading Icon
-date: 2016-11-13 09:33:43 Z
+date: 2016-11-13 09:33:43 +0000
 position: 5
 layout: blog-post
 website: codepen

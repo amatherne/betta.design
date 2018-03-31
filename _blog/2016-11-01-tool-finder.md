@@ -1,6 +1,6 @@
 ---
 title: Tool Finder
-date: 2016-11-01 09:33:43 Z
+date: 2016-11-01 09:33:43 +0000
 position: 3
 layout: blog-post
 website: codepen
