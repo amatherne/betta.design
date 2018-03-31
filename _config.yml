@@ -30,16 +30,3 @@ twitter_username: matherne_austin
 github_username: amatherne
 excerpt_separator: "<!--break-->"
 markdown: kramdown
-permalink: pretty
-defaults:
-  -
-    scope:
-      path: ''
-      type: blogs
-    values:
-      layout: blog-post
-      website: ''
-      screenshots: 
-        shot: ''
-        caption: ''
-      tech: []
