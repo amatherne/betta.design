@@ -1,0 +1,34 @@
+---
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: blog-post
+- name: website
+  label: Website
+  type: text
+  hidden: false
+  default: ''
+- name: screenshots
+  label: Screenshots
+  type: field_group
+  fields:
+  - name: shot
+    label: Shot
+    type: text
+    hidden: false
+    default: ''
+  - name: caption
+    label: Caption
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: tech
+  label: Tech
+  type: list
+  hidden: false
+  default: []
