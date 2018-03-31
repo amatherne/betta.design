@@ -20,14 +20,14 @@ collections:
 defaults:
   -
     scope:
-      path: ""
-      type: blog
+      path: ''
+      type: blogs
     values:
       layout: blog-post
-      website:
+      website: ''
       screenshots: 
-        shot:
-        caption:
+        shot: ''
+        caption: ''
       tech: []
 email: Matherne.Projects@gmail.com
 description: Web Design and Support based in Austin Texas.
@@ -36,3 +36,4 @@ twitter_username: matherne_austin
 github_username: amatherne
 excerpt_separator: "<!--break-->"
 markdown: kramdown
+permalink: pretty
