@@ -1,6 +1,7 @@
 ---
 pages:
 - _portfolio/asdfdf.md
+- _blog/let-s-see-what-happens.md
 hide_body: false
 fields:
 - name: title

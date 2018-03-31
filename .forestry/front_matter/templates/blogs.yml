@@ -1,6 +1,4 @@
 ---
-pages:
-- _blog/let-s-see-what-happens.md
 hide_body: false
 fields:
 - name: layout
