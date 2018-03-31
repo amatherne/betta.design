@@ -3,5 +3,9 @@ header:
   - url: /
     title: Home
     identifier: home
+footer:
+  - url: /
+    title: Home
+    identifier: home
 ---
 
