@@ -7,23 +7,23 @@
     <div class="nav">
         <div class="menu-btn hamburger" id="menu-btn">nav</div>
         <div class="responsive-menu">
-            {% assign menu = site.menus['header'] %}
-            <h4>Menu Size: {{ menu }}</h4>
-            <h4>Menu ID: {{ menu.identifier }}</h4>
-            <h4>Menu Name: {{ menu.menu }}</h4>
-            {% if menu != '' %}
+            {% assign menu_name = 'header' %}
+            {% assign list = site.menus[menu_name] %}
+            <h4>Menu Size: {{ list.menu | size }}</h4>
+            <h4>Menu ID: {{ list.identifier }}</h4>
+            <h4>Menu Name: {{ list.menu }}</h4>
                 <ul>
-                    {% for item in menu %}
+                    {% for i in list %}
+                        {{ forloop.index }}
                         <li class="menu-item-{{ forloop.index }}">
-                            <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a> 
-                            {% comment %}{% if item.children %} 
-                                {% assign menu = item.children %} 
+                            <a href="{{ i.url }}" title="Go to {{ i.title }}">{{ i.title }}</a> 
+                            {% comment %}{% if i.children %} 
+                                {% assign menu = i.children %} 
                                 {% include menu.html %} 
                             {% endif %}{% endcomment %}
                         </li>
                     {% endfor %}
                 </ul>
-            {% endif %}
             {% comment %}{% include menus.html %}{% endcomment %}
         </div>
     </div>
