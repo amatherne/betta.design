@@ -1,6 +1,13 @@
 ---
 header:
-- identifier: api
-  url: "/api"
+- url: "/"
   weight: 1
-  title: API Documentation
+  title: Level 1
+- url: "/"
+  weight: 1
+  parent: api
+  title: Level 2
+- identifier: api
+  url: "/"
+  weight: 1
+  title: Level 1
