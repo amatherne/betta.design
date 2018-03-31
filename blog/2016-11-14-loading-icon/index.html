@@ -68,13 +68,13 @@
 
 		    
 
-		      	<a class="prev" href="/blog/2016-09-26-Explosions/"><span class="arrow">&laquo;</span> <span>Balancing Explosions</span></a> 
+		      	<a class="prev" href="/blog/2016-11-13-svg-fun/"><span class="arrow">&laquo;</span> <span>SVG Fun</span></a> 
 
 		     
 
 		     
 
-		      	<a class="next" href="/blog/2016-10-12-Geo-Mountains/"><span>Geo Mountain</span> <span class="arrow">&raquo;</span></a> 
+		      	<a class="next" href="/blog/testing-the-new-setup/"><span>Testing the new setup</span> <span class="arrow">&raquo;</span></a> 
 
 		     
 
@@ -83,13 +83,13 @@
 	    <div class="post-img">            
 
 	        <figure class="image-tint">
-	          	<img class="image" src="/img/portfolio/photoshop/Quick-Comic/header.jpg" />
+	          	<img class="image" src="/img/blog/svg/svg.png" />
 	        </figure>
 	        
-	        <a href="http://artwork" class="post-meta">
-	          <h2 class="post-title">Relax</h2>
-	          <span class="website">artwork</span>
-	          <span class="date">Oct 11, 2016</span>
+	        <a href="http://codepen" class="post-meta">
+	          <h2 class="post-title">Loading Icon</h2>
+	          <span class="website">codepen</span>
+	          <span class="date">Nov 13, 2016</span>
 	        </a>
 
 	    </div>
@@ -99,9 +99,11 @@
 	    <ul class="tech">
 	      <li class="sub-header">Tech Used</li>
 	      
-	        <li class="items">Adobe Photoshop /</li>
+	        <li class="items">HTML /</li>
 	      
-	        <li class="items">Adobe Stock</li>
+	        <li class="items">Sass /</li>
+	      
+	        <li class="items">SVG</li>
 	      
 	    </ul>
 
@@ -110,17 +112,161 @@
 	    <article class="post-content">
 
 	      <style type="text/css">
-	.portfolio .image-tint {
-		background:blue;
-
+  	.portfolio .screenshots {
+  		display: none;
   	}
+
+.box {
+	font-family: 'azo-sans-web', sans-serif;
+  	box-sizing:border-box;
+  	max-width: 500px;
+  	width: 80%;
+    /* height: 40%; */
+    position: relative;
+  	background:#B9EBFA;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+    color: rgb(55,170,230);
+    -webkit-transition: background 0.4s 0.5s;
+    transition: background 0.4s 0.5s;
+  	margin:10%;
+  	padding:1em 2em 2em;
+  
+}
+
+.box:hover {
+    background: rgba(250,250,250,0);
+  /* // background:#C7BEA7; */
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.box h3 {
+    /* // font-family: "Ruthie", cursive; */
+    font-size: 10em;
+    margin: 0;
+    font-weight: 700;
+    width: 100%;
+    padding:0 0 0 5%;
+  
+}
+
+.box span {
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2em;
+    padding:0 0 1em 5%;
+}
+
+.box h3,
+.box span {
+    -webkit-transition: color 0.4s 0.5s;
+    transition: color 0.4s 0.5s;
+}
+
+.box:hover h3,
+.box:hover span {
+    color: #615E3C;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+
+.box svg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 99%;
+    height: 99%;
+    margin: 1%;
+}
+
+.box svg line {
+    stroke-width: 5px;
+    stroke: rgb(55,170,230);
+  	stroke:#615E3C;
+
+    position: absolute;
+    fill: none;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    top: 1em;
+    left: 1em;
+    bottom: 1em;
+   	right: 1em;
+
+}
+
+.box svg line.top {
+  transition: all 0.1s .1s ease;
+}
+.box svg line.right {
+  transition: all 0.1s .2s ease;
+}
+.box svg line.bottom {
+  transition: all 0.1s .3s ease;
+}
+.box svg line.left {
+  transition: all 0.1s 0.4s ease;
+}
+
+.box:hover line {
+  stroke:#615E3C;
+}
+.box:hover line.left {
+    transition: all 0.05s 0.1s ease;
+  }
+.box:hover line.bottom {
+    transition: all 0.05s 0.15s ease;
+  }
+.box:hover line.right {
+    transition: all 0.05s 0.2s ease;
+  }
+.box:hover line.top {
+    transition: all 0.05s 0.25s ease;
+  }
+
+
+
+.box:hover svg line.top {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.box:hover svg line.bottom {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.box:hover svg line.left {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.box:hover svg line.right {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
 </style>
 
-<p>I figured out that I have been receiving 10 free stock photos a month from Adobe. I had somewhere around 30; now just 8. Before ACL I was working on a piece that would have a different scene playing out on each open book in a stack. Water flowing over the top for some sort of sea battle. Maybe magicians or a Scifi landscape popping out of others. Needless to say, it was a little outside my abilities. I’m going to keep working on it. Using the new skills I pick up each week to get a little closer to whats in my head.</p>
-
-<p>Today was the first real day off I’ve had since ACL began. Feeling down that I was unable to manifest my book idea, an easier manipulation sounded like a good boost. Comic Book style halftone! I found a youtube tutorial and then a stock photo. I did the tutorial a couple times from start to finish to see if I could further refine what I was looking for.</p>
-
-<p>This is the <a href="https://www.youtube.com/watch?v=IS6k9ax4joI">tutorial I followed</a>!</p>
+<!-- ### SVG's! -->
+<div class="box">
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <line class="top" x1="100%" x2="200%" />
+        <line class="left" y1="0" y2="-100%" />
+        <line class="bottom" x1="0" x2="-100%" y1="100%" y2="100%" />
+        <line class="right" y1="100%" y2="200%" x1="100%" x2="100%" />
+    </svg>
+    <h3>D</h3>
+    <span>2012</span>
+    <span>Broccoli, Asparagus, Curry</span>
+</div>
 
 
 
@@ -128,87 +274,6 @@
 
 	   	<ul class="screenshots">
         	<li class="sub-header">Screenshots</li>
-          
-            <li class="shot">
-            	<div class="img-bound">
-	            	<a data-popup-open="/img/portfolio/photoshop/Quick-Comic/relax-v.2.jpg" href="#"><img src="/img/portfolio/photoshop/Quick-Comic/relax-v.2.jpg" /></a>
-	            </div>
-            	<span class="caption">Relax (v.2)</span>
-
-            	<div class="popup" data-popup-close="/img/portfolio/photoshop/Quick-Comic/relax-v.2.jpg" data-popup="/img/portfolio/photoshop/Quick-Comic/relax-v.2.jpg">
-
-				    <div class="popup-inner">
-
-				        <div class="modal-img">
-
-			            	<img class="modal-image" src="/img/portfolio/photoshop/Quick-Comic/relax-v.2.jpg" />
-
-			            </div>
-
-		            	<span class="modal-caption">Relax (v.2)</span>
-
-				        <p><a data-popup-close="/img/portfolio/photoshop/Quick-Comic/relax-v.2.jpg" href="#">Close</a></p>
-
-				        <!-- <a class="popup-close" data-popup-close="/img/portfolio/photoshop/Quick-Comic/relax-v.2.jpg" href="#">x</a> -->
-
-				    </div>
-				</div>
-            </li>
-            
-          
-            <li class="shot">
-            	<div class="img-bound">
-	            	<a data-popup-open="/img/portfolio/photoshop/Quick-Comic/relax-v.1.jpg" href="#"><img src="/img/portfolio/photoshop/Quick-Comic/relax-v.1.jpg" /></a>
-	            </div>
-            	<span class="caption">(v.1)</span>
-
-            	<div class="popup" data-popup-close="/img/portfolio/photoshop/Quick-Comic/relax-v.1.jpg" data-popup="/img/portfolio/photoshop/Quick-Comic/relax-v.1.jpg">
-
-				    <div class="popup-inner">
-
-				        <div class="modal-img">
-
-			            	<img class="modal-image" src="/img/portfolio/photoshop/Quick-Comic/relax-v.1.jpg" />
-
-			            </div>
-
-		            	<span class="modal-caption">(v.1)</span>
-
-				        <p><a data-popup-close="/img/portfolio/photoshop/Quick-Comic/relax-v.1.jpg" href="#">Close</a></p>
-
-				        <!-- <a class="popup-close" data-popup-close="/img/portfolio/photoshop/Quick-Comic/relax-v.1.jpg" href="#">x</a> -->
-
-				    </div>
-				</div>
-            </li>
-            
-          
-            <li class="shot">
-            	<div class="img-bound">
-	            	<a data-popup-open="/img/portfolio/photoshop/Quick-Comic/AdobeStock_62068956.jpeg" href="#"><img src="/img/portfolio/photoshop/Quick-Comic/AdobeStock_62068956.jpeg" /></a>
-	            </div>
-            	<span class="caption">Raw Image from Adobe Stock.</span>
-
-            	<div class="popup" data-popup-close="/img/portfolio/photoshop/Quick-Comic/AdobeStock_62068956.jpeg" data-popup="/img/portfolio/photoshop/Quick-Comic/AdobeStock_62068956.jpeg">
-
-				    <div class="popup-inner">
-
-				        <div class="modal-img">
-
-			            	<img class="modal-image" src="/img/portfolio/photoshop/Quick-Comic/AdobeStock_62068956.jpeg" />
-
-			            </div>
-
-		            	<span class="modal-caption">Raw Image from Adobe Stock.</span>
-
-				        <p><a data-popup-close="/img/portfolio/photoshop/Quick-Comic/AdobeStock_62068956.jpeg" href="#">Close</a></p>
-
-				        <!-- <a class="popup-close" data-popup-close="/img/portfolio/photoshop/Quick-Comic/AdobeStock_62068956.jpeg" href="#">x</a> -->
-
-				    </div>
-				</div>
-            </li>
-            
           
         </ul>
 	</div>
