@@ -1,7 +1,6 @@
 ---
 header:
-  - url: /
-    title: Home
-    identifier: home
----
-
+- identifier: home
+  url: "/"
+  weight: -1
+  title: Home
