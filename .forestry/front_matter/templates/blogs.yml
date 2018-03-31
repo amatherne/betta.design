@@ -12,28 +12,18 @@ fields:
   label: Website
   type: text
   hidden: false
-  default: Blahbity Blah
-- name: screenshots
-  label: Screenshots
-  type: field_group
+  default: ''
+- type: field_group_list
   fields:
   - type: file
-  - name: caption
-    label: Caption
-    type: text
-    hidden: false
-    default: ''
-  - name: shot
     label: Shot
-    type: text
-    hidden: false
+    name: shot
+  - type: text
     default: ''
-  hidden: false
-  default: 
-- name: tech
+    label: Caption
+    name: caption
+  label: Screenshots
+  name: screenshots
+- type: image_gallery
   label: Tech
-  type: list
-  hidden: false
-  default:
-  - boom
-  - And another
+  name: tech
