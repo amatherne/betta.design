@@ -8,6 +8,7 @@
         <div class="menu-btn hamburger" id="menu-btn">nav</div>
         <div class="responsive-menu">
             {% assign menu = site.menus.header %}
+            {{ menu.identifier }}
             {% include menus.html %}
         </div>
     </div>
