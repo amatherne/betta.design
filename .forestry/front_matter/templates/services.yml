@@ -15,7 +15,7 @@ fields:
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: services-post
 - name: image
   label: Image
   type: file
