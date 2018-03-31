@@ -1,10 +1,10 @@
 ---
-header:
+footer:
 - identifier: home
   url: "/"
   weight: -1
   title: Home
-footer:
+header:
 - identifier: home
   url: "/"
   weight: -1
