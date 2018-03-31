@@ -37,3 +37,5 @@ github_username: amatherne
 excerpt_separator: "<!--break-->"
 markdown: kramdown
 permalink: pretty
+plugins:
+- jekyll-menus

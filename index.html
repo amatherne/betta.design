@@ -46,7 +46,7 @@ layout: default
     <h3>bloggin'</h3>
   <ul class="post-list">
     
-    {% assign sorted = (site.blog | sort: 'date') | reverse %}
+    {% assign sorted = site.blog | sort: 'date' | reverse %}
     {% for blog in sorted limit:2 %}
 
         <li class="post-box ">
@@ -82,7 +82,7 @@ layout: default
   
   <ul class="post-list port-feed">
     
-    {% assign sorted = (site.portfolio | sort: 'order') %}
+    {% assign sorted = site.portfolio | sort: 'order' %}
     {% for portfolio in sorted limit:2  %}
 
         <li class="post-box">
@@ -112,7 +112,7 @@ layout: default
 
   <ul class="recent-list">
 
-    {% assign sorted = (site.blog | sort: 'date') | reverse %}
+    {% assign sorted = site.blog | sort: 'date' | reverse %}
     {% for blog in sorted limit:8 offset:2 %}
     <li class="post-box">
 
