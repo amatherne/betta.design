@@ -4,3 +4,7 @@ footer:
   url: "/"
   weight: 2
   title: home
+header:
+- url: "/"
+  weight: 1
+  title: test
