@@ -13,16 +13,19 @@
     <div class="responsive-menu">
 
         <ul>
-            <li><a href="{{ site.baseurl }}/">home</a></li>
+            {% comment %}<li><a href="{{ site.baseurl }}/">home</a></li>
             <li><a href="{{ site.baseurl }}/portfolio">portfolio</a></li>
             <li><a href="{{ site.baseurl }}/blog">blog</a></li>
             <li><a href="{{ site.baseurl }}/about">about</a></li>
             <li><a href="{{ site.baseurl }}/services">services</a></li>
-            <li><a href="{{ site.baseurl }}/contact">contact</a></li>
-            
-<!--             {% for post in site.categories.blog limit:1 %}
-            <li><a href="{{ blog-post.url | prepend: site.baseurl }}">blog</a></li>
-            {% endfor %} -->
+            <li><a href="{{ site.baseurl }}/contact">contact</a></li>{% endcomment %}
+
+
+            {% for item in site.menus.header %}
+                <li class="menu-item-{{ loop.index }}">
+                    <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+                </li>
+            {% endfor %}
         </ul>
 
     </div>
