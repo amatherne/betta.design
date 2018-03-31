@@ -1,6 +1,6 @@
 ---
 title: Learning To Draw
-date: 2016-08-30 07:53:00 Z
+date: 2016-08-30 07:53:00 +0000
 position: 6
 layout: blog-post
 website: artwork

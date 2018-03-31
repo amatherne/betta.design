@@ -1,6 +1,6 @@
 ---
 title: The Woman in Fog
-date: 2016-09-20 17:23:43 Z
+date: 2016-09-20 17:23:43 +0000
 position: 7
 layout: blog-post
 website: artwork

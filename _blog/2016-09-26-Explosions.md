@@ -1,6 +1,6 @@
 ---
 title: Balancing Explosions
-date: 2016-09-26 17:23:43 Z
+date: 2016-09-26 17:23:43 +0000
 position: 9
 layout: blog-post
 website: artwork
