@@ -5,9 +5,9 @@ header:
   title: Level 1
 - url: "/"
   weight: 1
-  parent: api
+  parent: 
   title: Level 2
-- identifier: api
+- identifier: 
   url: "/"
   weight: 1
   title: Level 1
