@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+  <title>Austin Matherne | Web Development | Musician</title>
+
+
+
+  <link rel="stylesheet" type="text/css" href="/css/main.css"">
+
+
+</head>
+
+
+  <body>
+
+
+    <div class="container">
+
+      <!-- includes/header -->
+<header class="site-header">
+    <a class="site-title" href="/">
+        <h1>BETTA</h1>
+        <h2>DESIGN</h2>
+    </a>
+    <div class="nav">
+        <div class="menu-btn hamburger" id="menu-btn">nav</div>
+        <div class="responsive-menu">
+            
+            
+            <!-- includes/menu -->
+
+        </div>
+    </div>
+</header>
+
+
+        <div class="content">
+
+          <div class="portfolio">
+  
+  	<h2 class="page-type">PORTFOLIO</h2>
+
+	<div class="content-wrap">
+	  	<div id="post-nav" class="post-nav">
+
+		     
+
+		     
+
+		      	<a class="next" href="/portfolio/2015-08-20-good-reads/"><span>Goodreads Mobile Redesign</span> <span class="arrow">&raquo;</span></a> 
+
+		     
+
+	  	</div>
+
+	    <div class="post-img">            
+
+	        <figure class="image-tint">
+	          	<img class="image" src="/img/portfolio/apc/apc.png" />
+	        </figure>
+	        
+	        <a href="http://AtxPedicab.com" class="post-meta">
+	          <h2 class="post-title">Austin Pedicab Co.</h2>
+	          <span class="website">AtxPedicab.com</span>
+	          <span class="date">Jul 9, 2015</span>
+	        </a>
+
+	    </div>
+
+
+
+	    <ul class="tech">
+	      <li class="sub-header">Tech Used</li>
+	      
+	        <li class="items">Illustrator /</li>
+	      
+	        <li class="items">Responsive /</li>
+	      
+	        <li class="items">HTML /</li>
+	      
+	        <li class="items">CSS/SASS /</li>
+	      
+	        <li class="items">Bourbon /</li>
+	      
+	        <li class="items">Jekyll /</li>
+	      
+	        <li class="items">Jquery /</li>
+	      
+	        <li class="items">Twilio /</li>
+	      
+	        <li class="items">PHP</li>
+	      
+	    </ul>
+
+	    
+
+	    <article class="post-content">
+
+	      <style type="text/css">
+	.image, 
+	.screenshots {
+		-webkit-filter: contrast(0.7) grayscale(0.5);
+  		filter: contrast(0.7) grayscale(0.5);
+  	}
+</style>
+
+<h3 id="customer-bio">Customer Bio</h3>
+
+<p>The Austin Pedicab Co. was created in 2015 by a group of veteran drivers. They each have multiple years of experience in the transportainment industry and wanted to come together to make a company they could be proud to call their own. They’ve proven their mettle on the streets of Austin, New Orleans, Chicago, St Louis, and Dallas. They are adept at safely weaving the huge crowds that descend upon SXSW, Austin City Limits, Lollapolooza, Ranger/Cowboys Games, The Jazz Heritage Festival, and Mardi Gras among many others.</p>
+
+<!--break-->
+
+<h3 id="goals">Goals</h3>
+
+<p>They are developing a webapp and website that will allow Users to hail a pedicab from anywhere just by inputing their number and pushing a button. It will eventually come with location services so the drivers get notified with an address to pick up at.</p>
+
+<p>They will also begin offering a booking service for food truck tours, margarita tours, pub crawls, bike yoga, bachelor/bachelorette parties, weddings, birthdays and for any other reason at all.</p>
+
+<h3 id="design-aspects">Design Aspects</h3>
+
+<p>The initial designs for this project were done as wireframes in Illustrator. For the colors schemes I wanted to capture the feel of downtown Austin at night. The reds and greens I especially wanted to give a slightly neon tinge. The header typeface is called Roadgeek and is very similar to what is used on road and street signs across the country; with all body copy being presented in Oxygen.</p>
+
+<p>Because the goal was to have this service available to anyone on any device or screen size, all HTML and CSS/SASS was written with a mobile first priority. To help ensure fallbacks and proper cross-browser compatibilty <a href="https://bourbon.io">Bourbon.io</a> was also implemented. A Basic Jekyll Blog is the basis for the CMS construct, though the only pieces of the Basic left are the liquid tags for templating all original content and CSS was removed completely.</p>
+
+<p>The <a href="https://twilio.io">Twilio API</a> was used to power the Cab Call feature. I had a friend who’d recently graduated from The Iron Yard help me with the php setup. The API sends one message to the customer who needs a ride and another to the company for dispatch. The dispatch is given all the info needed to contact and confirm with the customer.</p>
+
+
+
+	    </article>
+
+	   	<ul class="screenshots">
+        	<li class="sub-header">Screenshots</li>
+          
+            <li class="shot">
+            	<div class="img-bound">
+	            	<a data-popup-open="/img/portfolio/apc/mobile-home-page.png" href="#"><img src="/img/portfolio/apc/mobile-home-page.png" /></a>
+	            </div>
+            	<span class="caption">The home page at Mobile responsive width.</span>
+
+            	<div class="popup" data-popup-close="/img/portfolio/apc/mobile-home-page.png" data-popup="/img/portfolio/apc/mobile-home-page.png">
+
+				    <div class="popup-inner">
+
+				        <div class="modal-img">
+
+			            	<img class="modal-image" src="/img/portfolio/apc/mobile-home-page.png" />
+
+			            </div>
+
+		            	<span class="modal-caption">The home page at Mobile responsive width.</span>
+
+				        <p><a data-popup-close="/img/portfolio/apc/mobile-home-page.png" href="#">Close</a></p>
+
+				        <!-- <a class="popup-close" data-popup-close="/img/portfolio/apc/mobile-home-page.png" href="#">x</a> -->
+
+				    </div>
+				</div>
+            </li>
+            
+          
+            <li class="shot">
+            	<div class="img-bound">
+	            	<a data-popup-open="/img/portfolio/apc/desktop-home-page.png" href="#"><img src="/img/portfolio/apc/desktop-home-page.png" /></a>
+	            </div>
+            	<span class="caption">The home page at Desktop responsive width.</span>
+
+            	<div class="popup" data-popup-close="/img/portfolio/apc/desktop-home-page.png" data-popup="/img/portfolio/apc/desktop-home-page.png">
+
+				    <div class="popup-inner">
+
+				        <div class="modal-img">
+
+			            	<img class="modal-image" src="/img/portfolio/apc/desktop-home-page.png" />
+
+			            </div>
+
+		            	<span class="modal-caption">The home page at Desktop responsive width.</span>
+
+				        <p><a data-popup-close="/img/portfolio/apc/desktop-home-page.png" href="#">Close</a></p>
+
+				        <!-- <a class="popup-close" data-popup-close="/img/portfolio/apc/desktop-home-page.png" href="#">x</a> -->
+
+				    </div>
+				</div>
+            </li>
+            
+          
+            <li class="shot">
+            	<div class="img-bound">
+	            	<a data-popup-open="/img/portfolio/apc/mobile-cab-call.png" href="#"><img src="/img/portfolio/apc/mobile-cab-call.png" /></a>
+	            </div>
+            	<span class="caption">The Cab Call form works on any size screen</span>
+
+            	<div class="popup" data-popup-close="/img/portfolio/apc/mobile-cab-call.png" data-popup="/img/portfolio/apc/mobile-cab-call.png">
+
+				    <div class="popup-inner">
+
+				        <div class="modal-img">
+
+			            	<img class="modal-image" src="/img/portfolio/apc/mobile-cab-call.png" />
+
+			            </div>
+
+		            	<span class="modal-caption">The Cab Call form works on any size screen</span>
+
+				        <p><a data-popup-close="/img/portfolio/apc/mobile-cab-call.png" href="#">Close</a></p>
+
+				        <!-- <a class="popup-close" data-popup-close="/img/portfolio/apc/mobile-cab-call.png" href="#">x</a> -->
+
+				    </div>
+				</div>
+            </li>
+            
+          
+            <li class="shot">
+            	<div class="img-bound">
+	            	<a data-popup-open="/img/portfolio/apc/desktop-cab-call.png" href="#"><img src="/img/portfolio/apc/desktop-cab-call.png" /></a>
+	            </div>
+            	<span class="caption">Stays hidden away unless needed.</span>
+
+            	<div class="popup" data-popup-close="/img/portfolio/apc/desktop-cab-call.png" data-popup="/img/portfolio/apc/desktop-cab-call.png">
+
+				    <div class="popup-inner">
+
+				        <div class="modal-img">
+
+			            	<img class="modal-image" src="/img/portfolio/apc/desktop-cab-call.png" />
+
+			            </div>
+
+		            	<span class="modal-caption">Stays hidden away unless needed.</span>
+
+				        <p><a data-popup-close="/img/portfolio/apc/desktop-cab-call.png" href="#">Close</a></p>
+
+				        <!-- <a class="popup-close" data-popup-close="/img/portfolio/apc/desktop-cab-call.png" href="#">x</a> -->
+
+				    </div>
+				</div>
+            </li>
+            
+          
+        </ul>
+	</div>
+
+
+  <div class="archive">
+
+    <h2 class="recent">archive</h2>
+
+    <div class="divider"></div>
+
+      <ul class="week-archive">
+			
+    		
+            
+
+                <li class="archive-box">
+
+                  <a class="post-link" href="/portfolio/2016-07-10-vetter-kids/">
+
+                    <span class="archive-title">
+
+                      Vetter Kids
+
+                    </span>
+
+                    <span class="archive-date">
+
+                      Jul 10, 2016 
+
+                    </span>
+
+                  </a>
+
+                  <div class="divider"></div>
+
+                </li>
+
+            
+
+                <li class="archive-box">
+
+                  <a class="post-link" href="/portfolio/2015-08-20-good-reads/">
+
+                    <span class="archive-title">
+
+                      Goodreads Mobile Redesign
+
+                    </span>
+
+                    <span class="archive-date">
+
+                      Aug 10, 2015 
+
+                    </span>
+
+                  </a>
+
+                  <div class="divider"></div>
+
+                </li>
+
+            
+
+                <li class="archive-box">
+
+                  <a class="post-link" href="/portfolio/2015-09-15-apc/">
+
+                    <span class="archive-title">
+
+                      Austin Pedicab Co.
+
+                    </span>
+
+                    <span class="archive-date">
+
+                      Jul 9, 2015 
+
+                    </span>
+
+                  </a>
+
+                  <div class="divider"></div>
+
+                </li>
+
+            
+
+      </ul>
+
+  </div>
+
+</div>
+
+        </div>
+
+      <footer class="site-footer">
+	
+	<a class="site-title" href="/">
+        <h1>BETTA</h1>
+        <h2>DESIGN</h2>
+    </a>
+
+
+</footer>
+
+
+  <script src="https://use.typekit.net/akz3yrt.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="/js/jq.js"></script>
+  <script src="/js/slick.js"></script>
+  <script src="/js/jquery.js"></script>
+
+
+  
+    </div>
+
+  </body>
+
+</html>
