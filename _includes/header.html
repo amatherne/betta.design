@@ -9,6 +9,7 @@
         <div class="responsive-menu">
             {% assign menu = site.menus.header %}
             <h4>Menu Size: {{ menu.size }}</h4>
+            <h4>Menu Name: {{ menu.menu }}</h4>
             {% if menu != '' %}
                 <ul>
                     {% for item in menu %}
