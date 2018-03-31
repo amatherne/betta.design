@@ -9,7 +9,20 @@
         <div class="responsive-menu">
             {% assign menu = site.menus.header %}
             <h4>Menu Size: {{ menu.size }}</h4>
-            {% include menus.html %}
+            {% if menu != '' %}
+                <ul>
+                    {% for item in menu %}
+                        <li class="menu-item-{{ forloop.index }}">
+                            <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a> 
+                            {% comment %}{% if item.children %} 
+                                {% assign menu = item.children %} 
+                                {% include menu.html %} 
+                            {% endif %}{% endcomment %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            {% comment %}{% include menus.html %}{% endcomment %}
         </div>
     </div>
 </header>
